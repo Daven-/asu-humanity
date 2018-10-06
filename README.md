@@ -1,1 +1,1 @@
-# asu humanity
+# ASU Humanity Project
