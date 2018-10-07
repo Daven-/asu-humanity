@@ -16,7 +16,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -25,4 +25,10 @@
         <router-view :user="null"></router-view>
     </div>
 </body>
+<script>
+    function success () {
+        window.places = true;
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJYjtvebw2RmfBjfOILLZeSo_TogGbe40&libraries=places&callback=success" async defer></script>
 </html>

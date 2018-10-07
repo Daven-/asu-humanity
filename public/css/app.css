@@ -10487,7 +10487,7 @@ body {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  background-color: #0A3E8A;
+  background-color: #1450C6;
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -10495,9 +10495,9 @@ body {
   letter-spacing: 2px;
   padding: 25px 20px;
   margin: 0 auto;
-  border-radius: 20px;
-  -webkit-box-shadow: 0 6px #0A3EA1;
-          box-shadow: 0 6px #0A3EA1;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 6px #1450C6;
+          box-shadow: 0 6px #1450C6;
 }
 
 .cool-btn:hover {
@@ -10513,7 +10513,44 @@ body {
   top: 4px;
 }
 
+.second-cool-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background-color: #1450C6;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 6px #1450C6;
+          box-shadow: 0 6px #1450C6;
+}
+
+.second-cool-btn:hover {
+  -webkit-box-shadow: 0 4px #1450C6;
+          box-shadow: 0 4px #1450C6;
+  top: 2px;
+}
+
+.second-cool-btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  top: 4px;
+}
+
 .primary-btn {
   width: 40px;
+}
+
+.dark-blue-container {
+  background-color: #0A3E8A;
+  font-weight: 800;
 }
 
