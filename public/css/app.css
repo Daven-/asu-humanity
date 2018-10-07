@@ -10471,9 +10471,49 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: #2B2C30;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.cool-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background-color: #0A3E8A;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 6px #0A3EA1;
+          box-shadow: 0 6px #0A3EA1;
+}
+
+.cool-btn:hover {
+  -webkit-box-shadow: 0 4px #0A3EA1;
+          box-shadow: 0 4px #0A3EA1;
+  top: 2px;
+}
+
+.cool-btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  top: 4px;
+}
+
+.primary-btn {
+  width: 40px;
 }
 

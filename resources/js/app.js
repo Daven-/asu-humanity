@@ -11,6 +11,8 @@ import VueRouter from 'vue-router';
 
 // Pages
 import Welcome from './pages/Welcome';
+import Resources from './pages/Resources';
+
 
 window.Vue = require('vue');
 
@@ -20,7 +22,10 @@ const routes = [
     {
         path: '/',
         component: Welcome
-    }, 
+    }, {
+        path: '/resources',
+        component: Resources
+    }
 ]
 
 const router = new VueRouter({
